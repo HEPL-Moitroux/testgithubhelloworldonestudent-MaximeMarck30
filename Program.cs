@@ -11,7 +11,9 @@ namespace HelloWorldMarckMaxime
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world personnalisé de Marck Maxime et francois Sanglier");
-            Console.ReadLine();// present pour maintenair l'affichage vu que l'application se termine
+            Console.WriteLine("V01 06/11/2019 - 19h42 modifié par François\n");
+            Console.WriteLine("Cliqué sur une touche pour quitter\n");
+            Console.ReadKey();
         }
     }
 }
